@@ -890,6 +890,16 @@
     extra_headers:
       editor-version: Neovim/0.9.0
       Copilot-Integration-Id: vscode-chat
+      Copilot-Vision-Request: "true"
+
+- name: github_copilot/gpt-3.5-turbo
+  weak_model_name: gpt-4o-mini
+  reminder: sys
+  extra_params:
+    extra_headers:
+      editor-version: Neovim/0.9.0
+      Copilot-Integration-Id: vscode-chat
+      Copilot-Vision-Request: "true"
 
 - name: github_copilot/gpt-4
   edit_format: udiff
@@ -901,6 +911,7 @@
     extra_headers:
       editor-version: Neovim/0.9.0
       Copilot-Integration-Id: vscode-chat
+      Copilot-Vision-Request: "true"
 
 - name: github_copilot/gpt-4o
   edit_format: diff
@@ -914,6 +925,7 @@
     extra_headers:
       editor-version: Neovim/0.9.0
       Copilot-Integration-Id: vscode-chat
+      Copilot-Vision-Request: "true"
 
 - name: github_copilot/gpt-4o-mini
   weak_model_name: github_copilot/gpt-4o-mini
@@ -923,6 +935,7 @@
     extra_headers:
       editor-version: Neovim/0.9.0
       Copilot-Integration-Id: vscode-chat
+      Copilot-Vision-Request: "true"
 
 - name: github_copilot/o1-ga
   edit_format: diff
@@ -937,6 +950,7 @@
     extra_headers:
       editor-version: Neovim/0.9.0
       Copilot-Integration-Id: vscode-chat
+      Copilot-Vision-Request: "true"
 
 - name: github_copilot/o3-mini
   edit_format: diff
@@ -950,6 +964,7 @@
     extra_headers:
       editor-version: Neovim/0.9.0
       Copilot-Integration-Id: vscode-chat
+      Copilot-Vision-Request: "true"
 
 - name: github_copilot/claude-3.5-sonnet
   edit_format: diff
@@ -965,6 +980,7 @@
     extra_headers:
       editor-version: Neovim/0.9.0
       Copilot-Integration-Id: vscode-chat
+      Copilot-Vision-Request: "true"
 
 - name: github_copilot/claude-3.7-sonnet
   edit_format: diff
@@ -980,6 +996,7 @@
     extra_headers:
       editor-version: Neovim/0.9.0
       Copilot-Integration-Id: vscode-chat
+      Copilot-Vision-Request: "true"
 
 - name: github_copilot/claude-3.7-sonnet-thought
   edit_format: diff
@@ -995,6 +1012,7 @@
     extra_headers:
       editor-version: Neovim/0.9.0
       Copilot-Integration-Id: vscode-chat
+      Copilot-Vision-Request: "true"
 
 - name: github_copilot/gemini-2.0-flash
   edit_format: diff
@@ -1003,3 +1021,4 @@
     extra_headers:
       editor-version: Neovim/0.9.0
       Copilot-Integration-Id: vscode-chat
+      Copilot-Vision-Request: "true"
